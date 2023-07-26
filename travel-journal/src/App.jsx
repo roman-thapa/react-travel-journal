@@ -9,7 +9,7 @@ export default function App() {
     return (
       <Places 
       key={place.id}
-        place = {place}
+      {...place}
       />
     )
   })
