@@ -2,7 +2,7 @@ export default function Places(props) {
     return (
         <>
             <div className="place">
-                <img src={props.place.imageUrl} alt={props.place.imageUrl} className="places--img" />
+                <img src={props.place.imageUrl} alt={props.place.imageAlt} className="places--img" />
                 <div className="details">
                     <div className="location">
                         <img src="./public/Fill.png" alt="location pin" />
